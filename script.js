@@ -17,7 +17,7 @@ $(document).ready(function () {
     });
     $(document).on('click', '.searchThis', function () {
         var term = $(this).text().replace(/\s+/g, "+"),
-            url = 'http://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=dc6zaTOxFJmzC&limit=10';
+            url = 'https://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=dc6zaTOxFJmzC&limit=10';
         $.ajax({
             url: url,
             method: 'GET'
@@ -50,7 +50,7 @@ $(document).ready(function () {
 
     function createButton() {
         var term = $(".search-box").val().trim().replace(/\s+/g, "+"),
-            url = 'http://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=dc6zaTOxFJmzC&limit=10';
+            url = 'https://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=dc6zaTOxFJmzC&limit=10';
         $.ajax({
             url: url,
             method: 'GET'
