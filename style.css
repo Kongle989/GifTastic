@@ -1,0 +1,49 @@
+.container {
+    width: 90%;
+    margin: 20px;
+}
+
+.gifHolder {
+    border-style: solid;
+    border-width: 2px;
+    float: left;
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.hero-buttons {
+    float: left;
+    width: 15%;
+}
+
+.search {
+    text-align: center;
+    float: left;
+    width: 90%
+}
+
+.image {
+    float: left;
+}
+
+img {
+    margin: 10px;
+    height: 150px;
+}
+
+.searchThis {
+    display: block;
+    width: 90%;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.submit {
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+
+
